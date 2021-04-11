@@ -3,7 +3,8 @@
 This is a script that launches an EC2 instance and registers it to an ELB.
 The script will monitor that instance's CPU and scale when reaches the cpu threshold.
 
-(The default CPU threshold is 80 and is set in the consts.py file)
+Notes: 1. The default CPU threshold is 80 and is set in the consts.py file
+2. userdata.sh is the script that runs on each instance that is launched.
 
 ## Requirements
 
