@@ -5,7 +5,7 @@ The script will monitor that instance's CPU and scale when reaches the cpu thres
 
 Notes: 
 1. The default CPU threshold is 80 and is set in the consts.py file.
-2. userdata.sh is the script that runs on each instance that is launched.
+2. userdata.sh is a bash script that runs on each instance that is launched. It launches a web server (in order for instances to be inService in the ELB), and starts a cpu stress tool.
 
 ## Requirements
 
